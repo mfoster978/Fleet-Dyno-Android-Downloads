@@ -1,0 +1,66 @@
+name: Feature request
+description: Suggest an improvement or new capability for the app.
+title: "[Feature]: "
+labels:
+  - enhancement
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Fleet Dyno. Explain the user problem and the benefit of your idea so the developer and community can evaluate it.
+        
+        Do not include private customer, shipment, account, location, camera, or document information.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature area
+      options:
+        - Dispatch and loads
+        - Tracking and maps
+        - Cameras and video
+        - Documents and signatures
+        - Payroll, invoices, receipts, or billing
+        - Notifications and communication
+        - Account, security, or permissions
+        - Performance or accessibility
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the current difficulty or missing capability.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Explain how you would like the feature to work.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Who benefits and how?
+      description: Tell us which users or roles would benefit and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: Describe anything you currently do instead.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for a similar request.
+          required: true
+        - label: I removed private or confidential information.
+          required: true
+        - label: I understand requests are reviewed and are not guaranteed to be approved or implemented.
+          required: true
