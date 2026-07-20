@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community discussions
+    url: https://github.com/mfoster978/Fleet-Dyno-Android-Downloads/discussions
+    about: Ask questions, compare experiences, discuss workarounds, and help other testers.
+  - name: Recommended stable Google Play edition
+    url: https://play.google.com/store/apps/details?id=com.fleet.dyno
+    about: Install the recommended stable version instead of the beta APK.
