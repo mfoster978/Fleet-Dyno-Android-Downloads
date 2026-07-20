@@ -1,0 +1,91 @@
+name: Beta bug report
+description: Report a reproducible problem in the newest direct-download beta APK.
+title: "[Beta bug]: "
+labels:
+  - bug
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing Fleet Dyno. Detailed reports help the developer reproduce, prioritize, and fix problems faster.
+        
+        Do not include passwords, access tokens, private customer or shipment information, precise private locations, or confidential camera/document content.
+  - type: dropdown
+    id: edition
+    attributes:
+      label: App edition
+      description: Which installation were you using?
+      options:
+        - Direct-download beta APK
+        - Stable Google Play edition
+        - Unsure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and build number
+      description: Find this in the app's About screen or the GitHub release page.
+      placeholder: "Example: 7.9 (69)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Android device and OS version
+      placeholder: "Example: Samsung Galaxy S24, Android 16"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Explain the problem and its impact in clear, nontechnical language.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact actions that cause the problem.
+      placeholder: |
+        1. Open...
+        2. Tap...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often can you reproduce it?
+      options:
+        - Every time
+        - Often
+        - Sometimes
+        - Happened once
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe screenshots or additional details
+      description: Add screenshots only after removing private or confidential information.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I removed passwords, tokens, customer data, shipment details, locations, and confidential media.
+          required: true
+        - label: I understand this public report may be discussed by other community members.
+          required: true
