@@ -29,6 +29,7 @@
 > Because this APK is installed outside Google Play, **Google Play Billing may not work correctly**. Subscriptions, in-app purchases, purchase restoration, billing verification, and other Play-dependent features may be unavailable or unreliable.
 >
 > **Most customers should use the stable version:** [Download Fleet Dyno from Google Play](https://play.google.com/store/apps/details?id=com.fleet.dyno). Choose the beta APK only if you want the newest possible features and accept the possibility of bugs or missing billing functionality.
+
 > [!IMPORTANT]
 > This is the official direct-download page for the signed Fleet Dyno Android app. It is intended for authorized customers, drivers, dispatchers, and fleet personnel whose devices cannot use Google Play or who have been instructed to install the direct edition.
 
@@ -87,6 +88,7 @@ GitHub is the best place to send feedback because every report creates a trackab
 - Never post passwords, access tokens, private customer information, shipment details, precise private locations, or confidential camera/document content.
 
 Constructive public discussion helps the developer see which problems affect the most people and gives interested testers a place to solve problems together.
+
 ## Installing without Google Play
 
 1. Tap **Download Latest Signed APK** above from your Android phone or tablet.
